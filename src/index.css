@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/src/assets/fonts/Poppins-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/src/assets/fonts/Poppins-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/src/assets/fonts/Poppins-Italic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: normal;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.blue-raspberry {
+  background: #00B4DB;
+  background: -webkit-linear-gradient(to bottom, #0083B0, #00B4DB);
+  background: linear-gradient(to bottom, #0083B0, #00B4DB);
+}
+
+.neuromancer {
+  background: #f953c6;
+  background: -webkit-linear-gradient(to top, #b91d73, #f953c6);
+  background: linear-gradient(to top, #b91d73, #f953c6);
+}
