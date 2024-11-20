@@ -28,7 +28,7 @@ const Recent: React.FC = () => {
   const firstFourTracks = tracks.slice(0, 4);
 
   return (
-    <div className="w-[40%] pb-5">
+    <div className="w-[40%] pb-0 lg:pb-5">
       <h1 className="text-lg font-bold text-gray-darker my-4">Recently Played</h1>
       <table>
         <tbody>

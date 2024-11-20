@@ -20,9 +20,11 @@ const SidebarMenuGp: React.FC<Props> = ({ titleEndIcon, gpTitle, menus }) => {
       {menus &&
         menus.length > 0 &&
         menus.map((menu, index) => (
-          <div key={index} className="flex items-center gap-3 py-3">
-            {menu.icon}
-            <p className={`text-gray-darker text-sm ${menu.caption.toLowerCase() === "home" && "font-bold"}`}>{menu.caption}</p>
+          <div key={index} className="group flex cursor-pointer items-center gap-3 py-3">
+            {React.cloneElement(menu.icon, {
+              className: `h-4 w-4 text-gray-darker group-hover:text-black`,
+            })}
+            <p className={`text-gray-darker group-hover:font-bold text-sm ${menu.caption.toLowerCase() === "home" && "font-bold"}`}>{menu.caption}</p>
           </div>
         ))}
     </div>

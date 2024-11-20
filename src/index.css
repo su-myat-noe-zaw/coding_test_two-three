@@ -27,7 +27,12 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
   font-family: 'Poppins', sans-serif;
+}
+
+*{
+  transition: all linear .3s;
 }
 
 .blue-raspberry {

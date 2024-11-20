@@ -21,23 +21,23 @@ const Sidebar: React.FC = () => {
       menus: [
         {
           caption: "Home",
-          icon: <HomeIcon className="h-4 w-4 text-gray-darker" />,
+          icon: <HomeIcon className="text-gray-darker" />,
         },
         {
           caption: "Songs",
-          icon: <MusicalNoteIcon className="h-4 w-4 text-gray-darker" />,
+          icon: <MusicalNoteIcon />,
         },
         {
           caption: "Playlists",
-          icon: <QueueListIcon className="h-4 w-4 text-gray-darker" />,
+          icon: <QueueListIcon />,
         },
         {
           caption: "Just For You",
-          icon: <StarIcon className="h-4 w-4 text-gray-darker" />,
+          icon: <StarIcon />,
         },
         {
           caption: "Top Charts",
-          icon: <FireIcon className="h-4 w-4 text-gray-darker" />,
+          icon: <FireIcon />,
         },
       ],
     },
@@ -47,26 +47,26 @@ const Sidebar: React.FC = () => {
       menus: [
         {
           caption: "Workout Mix",
-          icon: <ListBulletIcon className="h-4 w-4 text-gray-darker" />,
+          icon: <ListBulletIcon />,
         },
         {
           caption: "Chillin' at Home",
-          icon: <ListBulletIcon className="h-4 w-4 text-gray-darker" />,
+          icon: <ListBulletIcon />,
         },
         {
           caption: "Booping at Adobe",
-          icon: <ListBulletIcon className="h-4 w-4 text-gray-darker" />,
+          icon: <ListBulletIcon />,
         },
         {
           caption: "XD 4 Life",
-          icon: <ListBulletIcon className="h-4 w-4 text-gray-darker" />,
+          icon: <ListBulletIcon />,
         },
       ],
     },
   ];
 
   return (
-    <div className="w-[300px] px-8 pb-5 overflow-x-hidden overflow-y-auto bg-gray-bg rounded-b-[40px]">
+    <div className="min-w-[250px] px-8 pb-5 overflow-x-hidden overflow-y-auto bg-gray-bg rounded-b-[40px]">
       {/* Sidebar Header */}
       <div className="w-full flex items-center gap-3 my-6">
         <div

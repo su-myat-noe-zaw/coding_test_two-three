@@ -5,7 +5,7 @@ import PlayerSection from '../components/playerSection/PlayerSection'
 
 const MainPage: React.FC = () => {
   return (
-    <div className='gap-4 relative bg-primary-default'>
+    <div className='gap-4 relative bg-primary-default overflow-hidden'>
         <div className='flex gap-3 bg-white rounded-b-[40px] h-fit shadow-xl relative z-10'>
             {/* sidebar */}
             <Sidebar/>
